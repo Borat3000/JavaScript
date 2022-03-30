@@ -11,6 +11,11 @@ console.log(a, b);
 
 //--Найти сумму цифр 2х значного числа----------
 
+let n = 45;
+let first = n % 10;
+let second = ( n - first ) / 10;
+let sum = first + second;
+console.log(sum);
 
 
 //--Задача на тернарный оператор----------------
