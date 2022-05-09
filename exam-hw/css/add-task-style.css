@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* --название задачи-- */
+.input-ntask {
+    display: block;
+    height: 52px;
+    padding: 11px 0px;
+    width: 100%;
+}
+
+.text-area-ntask {
+    width: 100%;
+    height: 25px;
+}
+/* --описание задачи-- */
+.input-dtask {
+    display: block;
+    height: 80px;
+    padding: 15px 0px;
+    width: 100%;
+
+}
+
+.text-area-dtask {
+    width: 100%;
+    height: 100%;
+}
+/* --срок выполнения задачи-- */
+.input-date-time {
+    display: block;
+    height: 25px;
+    padding: 15px 0px;
+    width: 100%;
+
+}
+
+.date-time{
+    width: 100%;
+    height: 100%;
+}
+/* --кнопка добавления задачи-- */
+.input-task-button {
+    display: block;
+    height: 25px;
+    padding: 20px 100px;
+    width: 100%;
+
+}
+.add-task{
+    width: 100%;
+    height: 100%;
+}
+
+/* --сообщение о добавлении задачи-- */
+
+#outMessage {
+    color: green;
+    font-size: 1rem;
+    padding: 2px 60px;
+}
+
+/* --сообщение об ошибке-- */
+
+.error {
+    color: red;
+}
+
+/* --скрытие сообщения-- */
+
+.message {
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+.active {
+    visibility: visible;
+}
+
+div:nth-child(1){
+    grid-column: 2 / 5;
+}
+
+div:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+div:nth-child(3){
+    grid-column: 3 / 5;
+    grid-row: 2/3;
+}
+
+div:nth-child(4){
+    grid-column: 2 / 3;
+    grid-row: 3/4;
+}
+
+div:nth-child(5){
+    grid-column: 3 / 5;
+    grid-row: 3/4;
+}
+
+div:nth-child(6){
+    grid-column: 2 / 3;
+    grid-row: 5/6;
+}
+
+div:nth-child(7){
+    grid-column: 3 / 5;
+    grid-row: 5/6;
+}
+
+div:nth-child(8){
+    grid-column: 2 / 4;
+    grid-row: 6/7;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/add-task-style.css">
+</head>
+
+<body>
+    <form name="addTaskForm" novalidate>
+
+        <div class="flex-row">
+            <h2>Добавление задачи</h2>
+            <span id="outMessage" class="message"></span>
+        </div>
+        <div>
+            <p>Название задачи</p>
+        </div>
+        <div class="input-ntask">
+            <input class="text-area-ntask" name="nameTask" id="nameTask" type="text"
+                placeholder="Введите название задачи" minlength="1" maxlength="20" required>
+            <span class="message"></span>
+        </div>
+        <div>
+            <p>Описание задачи</p>
+        </div>
+        <div class="input-dtask">
+            <textarea class="text-area-dtask" name="dTask" id="dTask" placeholder="Введите описание задачи"></textarea>
+        </div>
+        <div>
+            <p>Срок выполнения задачи</p>
+        </div>
+        <div class="input-date-time">
+            <input class="date-time" id="taskDeadline" type="datetime-local" name="taskDeadline" required>
+            <span class="message"></span>
+        </div>
+        <div class="input-task-button">
+            <input class="add-task" type="submit" value="Добавить задачу">
+        </div>
+    </form>
+    <script src="js/add-task.js"></script>
+</body>
+
+</html>

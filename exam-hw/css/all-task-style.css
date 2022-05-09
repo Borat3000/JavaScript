@@ -1,0 +1,65 @@
+html {
+    background-color: #EDF5E1;
+}
+
+.link {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: #EDF5E1;
+}
+
+.link:hover {
+    color: #EDF5E1;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: #05386B;
+}
+
+h3 {
+    text-align: center;
+    margin: 100px auto;
+    text-transform: uppercase;
+    color: #05386B;
+}
+
+
+.taskBlock {
+    padding: 10px;
+    background-color: #8EE4AF;
+}
+
+.taskBlock h2 {
+    margin: 20px 0;
+    margin-top: 10px;
+}
+
+.taskBlock span {
+    margin: 10px 0;
+}
+
+.deleteButton {
+    display: block;
+    width: 500px;
+    line-height: 2rem;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #8EE4AF;
+}
+.deleteButton:hover {
+    background-color: #379683;
+}
+
+.selected {
+    background-color: #379683;
+}
